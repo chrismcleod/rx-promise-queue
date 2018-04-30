@@ -1,0 +1,21 @@
+{
+  "name": "rx-promise-queue",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Chris McLeod",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "s": "node lib/test.js"
+  },
+  "dependencies": {
+    "rxjs": "6.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.8.0",
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^2.8.3"
+  }
+}
